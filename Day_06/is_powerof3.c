@@ -10,7 +10,9 @@ bool is_powerof3(int n){
 }
 
 int main (){
-    int n =3;
+    int n ;
+    printf("enter a number: ");
+    scanf("%d",&n);
     if(is_powerof3(n)){
         printf("true");
     }else{
